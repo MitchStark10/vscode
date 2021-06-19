@@ -365,6 +365,7 @@ export class LocalProcessExtensionHost implements IExtensionHost {
 				if (this._isExtensionDevDebugBrk) {
 					console.warn(`%c[Extension Host] %cSTOPPED on first line for debugging on port ${port}`, 'color: blue', 'color:');
 				} else {
+					console.info('Mitch\'s test messages!');
 					console.info(`%c[Extension Host] %cdebugger listening on port ${port}`, 'color: blue', 'color:');
 				}
 			}
